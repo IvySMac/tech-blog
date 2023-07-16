@@ -1,10 +1,18 @@
 body {
-  background-color: green;
+  background-color: #5E60CE;
 }
 
 header, .post {
-  color: white;
+  color: black;
   border-bottom: 1px solid #ccc;
+}
+
+.row {
+ background-color: #56CFE1;
+ border: 5px;
+ border-style: solid;
+ border-radius: 10px;
+ border-color: #5390D9;
 }
 
 .no-button {
@@ -12,13 +20,13 @@ header, .post {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #56CFE1;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #5390D9;
   text-decoration: none;
 }
 
