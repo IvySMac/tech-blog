@@ -1,4 +1,9 @@
-header, .post:not(:last-child) {
+body {
+  background-color: green;
+}
+
+header, .post {
+  color: white;
   border-bottom: 1px solid #ccc;
 }
 
