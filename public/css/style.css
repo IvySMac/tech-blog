@@ -1,17 +1,21 @@
 body {
-  background-color: #5E60CE;
+  background-color: black;
 }
 
 header, .post {
   color: black;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .row {
- background-color: #56CFE1;
- border: 5px;
- border-style: solid;
- border-radius: 10px;
+ background-color: white;
+ /* border-style: solid; */
+ border-radius: 2px;
  border-color: #5390D9;
 }
 
