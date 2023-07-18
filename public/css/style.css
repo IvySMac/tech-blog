@@ -2,9 +2,13 @@ body {
   background-color: black;
 }
 
-header, .post {
+header {
   color: black;
   /* border-bottom: 1px solid #ccc; */
+}
+
+h2 {
+  background-color: blue;
 }
 
 a {
@@ -12,12 +16,13 @@ a {
   font-weight: bold;
 }
 
-.row {
+.flex-column {
+flex-direction: column;
  background-color: white;
- /* border-style: solid; */
  border-radius: 2px;
  border-color: #5390D9;
-}
+ box-shadow: -2px 1px 5px #0000ff, 2px 1px 5px red, 0 3px 5px rgb(0, 255, 0);
+} 
 
 .no-button {
   background: none;
