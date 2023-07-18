@@ -1,18 +1,19 @@
 <!-- Loop over each object in the projects array -->
 {{#each posts as |post| }}
-<div class="flex-column mb-4 post">
+<div class="mt-5 post">
   <div class="text-center">
     <h2>
-      <a href="/post/{{post.id}}">{{post.name}} </a>
+      {{post.name}}
     </h2>
   </div>
-  <div class="text-center">
+  <div class="text-center grow">
     <p>
       {{post.description}}
     </p>
   </div>
-  <div class="text-center">
-  <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+  <div class="text-center card-footer">
+  <footer>Created by {{post.user.name}} on {{format_date post.date_created}}</footer>
+  <a href="/post/{{post.id}}"><button class="btn btn-primary">Read More</button></a>
   </div>
 </div>
 {{/each}}
