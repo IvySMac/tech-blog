@@ -1116,8 +1116,8 @@ form {
 }
 
 form .form-group {
-  /* display: flex; */
-  display: block;
+  display: flex;
+  align-items: center;
   flex-direction: column;
   width: 50%;
   margin: 0.625rem 0;
