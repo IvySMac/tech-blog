@@ -9,11 +9,13 @@ header {
 
 h2 {
   background-color: blue;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
   font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .flex-column {
