@@ -17,6 +17,12 @@ header {
   box-shadow: -2px 1px 5px #0000ff, 2px 1px 5px red, 0 3px 5px rgb(0, 255, 0);
 }
 
+
+.post-list{
+  border-radius: 2px;
+  background-color: gray;
+}
+
 .grow {
   border-radius: 10px;
   height: 49px;
