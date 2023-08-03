@@ -52,3 +52,5 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ```
 
+Credits
+Christine Banlawi - Glitch hover effect 

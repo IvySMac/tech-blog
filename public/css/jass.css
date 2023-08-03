@@ -420,12 +420,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: #c7005a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: #c7005a;
   text-decoration: none;
 }
 
@@ -985,7 +985,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #cecece;
+  background-color: #c7005a;
 }
 
 .btn.btn-squared {
@@ -1014,7 +1014,7 @@ a:hover {
 }
 
 .btn.btn-primary:hover {
-  background-color: #57779a;
+  background-color: #c7005a;
 }
 
 .btn.btn-danger {
