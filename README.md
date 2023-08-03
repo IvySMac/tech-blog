@@ -1,10 +1,14 @@
 # Tech Blog
 
 ## Description 
-coming soon
+Welcome to Tech-Talk! A blog dedicated to posting one's thoughts on today's technology. A big part of creating this site was to explore log-in and log-out features, timeouts, posting and comments. I wasn't able to get to creating a comment feature yet, but I'm hoping to come back and do that. This was a great way of also understanding schemas and the relationship between models.  
 
 ## Usage
-coming soon
+![In the top corner there is a logo that reads Tech Talk and to the far right there is a text that reads 'log-in'. In the center of the page there is a blog post titled 'The Future of AI' and a block of text under it that is in latin. Under the block of text, there is a button that says 'read more'.](../../challenges/tech-blog/public/images/techtalk-screenshot.jpg)
+
+To access Tech-Talk, navigate your way to the 'login' link to the top right. This will give you the option to either log in with an existing account or sign-up. Once logged in, you'll be able to create posts and see your previous ones. You will also be able to see current posts on the front page and delete your own posts on your dashboard. 
+
+The 'Future of AI' post is simply there as a placeholder and an example of what blog posts look like! They are expandable if you hover over them and if you'd like to read the entire post, you can click 'read more' to see a static post. 
 
 ## User Story
 ```
@@ -52,5 +56,6 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ```
 
-Credits
-Christine Banlawi - Glitch hover effect 
+## Credits
+
+Expand Div Effect - <a href="https://stackoverflow.com/questions/27441404/how-to-expand-a-div-and-its-contents-on-hover">Weafs.py on Stack Overflow</a>
